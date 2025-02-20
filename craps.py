@@ -1,6 +1,8 @@
 import random
 Lista = []
 
+
+
 while True:
     Jogar = str(input("Quer jogar um jogo?: "))
     if Jogar == "sim"  or "SIM" or "Sim":
@@ -22,16 +24,15 @@ while True:
             Lista.append (Resultado)
             print(Lista)
             break
-            
+        
         elif Resultado >= 4 and Resultado <= 10:
             for Resultado in Lista:
-                print("Ganhamo")
-                break   
+                print("Ganhamo")                
+                break  
             Lista.append (Resultado)
             print(Lista)
             Ponto = True
-            print(Resultado)
-            
+            print(Resultado)            
         else:
             print("complications, patrao")
             break
